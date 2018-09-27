@@ -1,0 +1,59 @@
+body{
+  background-color: blue;
+  margin: 0;
+  width: 100%;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  display: inline-block;
+}
+header{
+  background-color: white;
+  color: black;
+  height: 70px;
+  text-align: center;
+  overflow: auto;
+}
+main{
+  background-color: grey;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+aside{
+  background-color: #FFD507;
+  width: 30%;
+  padding: 10px;
+  float: right;
+  display: inline-block;
+}
+footer{
+  background-color: #FF9B05;
+  height: 50px;
+  padding: 10px;
+  overflow: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 400px){
+  .container{
+    display: block;
+  }
+  main{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+  }
+    aside{
+    display: block;
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  footer{
+    display:inline-block;
+    width: 100%;
+    padding: 0;
+  }
+}
